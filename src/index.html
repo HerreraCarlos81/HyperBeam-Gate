@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Loader</title>
+    <!-- Including Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body class="bg-dark text-white">
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center mb-4">
+            <input type="text" id="inputBox" placeholder="Enter value here..." class="form-control rounded mr-2">
+            <button onclick="startHyperbeam()" class="btn trek-btn mr-2">Start</button>
+            <button onclick="terminateHyperbeam()" class="btn trek-btn">Terminate Session</button>
+        </div>
+        <div class="iframe-container">
+            <iframe id="myIframe"></iframe>
+        </div>
+    </div>
+
+    <!-- Including Bootstrap and custom JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
